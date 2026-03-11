@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-11T01:14:45.366896",
-  "composite_score": 25.6,
+  "generated_at": "2026-03-11T02:15:02.871476",
+  "composite_score": 33.0,
   "domains": {
     "economic_vitality": {
       "name": "Economic Vitality",
@@ -143,6 +143,53 @@
         "FED_REG_PAGES",
         "FINAL_RULES",
         "A191RL1Q225SBEA"
+      ]
+    },
+    "external_position": {
+      "name": "External Competitive Position",
+      "icon": "globe",
+      "pillar": "Economic & Financial",
+      "color": "primary",
+      "domain_key": "external_position",
+      "score": 26.2,
+      "indicator_count": 6,
+      "indicators": [
+        "GDP_SHARE_PPP",
+        "EXPORT_SHARE",
+        "PATENT_SHARE",
+        "MIL_SHARE",
+        "DALIO_US",
+        "DALIO_DIFF"
+      ]
+    },
+    "ecological": {
+      "name": "Ecological & Resource Base",
+      "icon": "leaf",
+      "pillar": "Biophysical",
+      "color": "success",
+      "domain_key": "ecological",
+      "score": 76.4,
+      "indicator_count": 4,
+      "indicators": [
+        "ECO_RATIO",
+        "FRESHWATER",
+        "FOREST_COVER",
+        "SOIL_EROSION"
+      ]
+    },
+    "energy_entropy": {
+      "name": "Energy & Entropy",
+      "icon": "bolt",
+      "pillar": "Biophysical",
+      "color": "orange",
+      "domain_key": "energy_entropy",
+      "score": 70.6,
+      "indicator_count": 4,
+      "indicators": [
+        "ENERGY_INTENSITY",
+        "FOSSIL_PCT",
+        "RENEWABLE_PCT",
+        "EROI"
       ]
     }
   },
@@ -10421,6 +10468,2342 @@
       ],
       "full_min": -28.0,
       "full_max": 34.9
+    },
+    "GDP_SHARE_PPP": {
+      "id": "GDP_SHARE_PPP",
+      "name": "US Share of World GDP (PPP)",
+      "series_id": "World Bank/IMF",
+      "latest_value": 14.62,
+      "fmt": "percent",
+      "direction": "positive",
+      "score": 0,
+      "trend_pct": -3.69,
+      "full_min": 14.62,
+      "full_max": 20.89,
+      "time_series": [
+        {
+          "date": "1990",
+          "value": 20.1
+        },
+        {
+          "date": "1991",
+          "value": 19.75
+        },
+        {
+          "date": "1992",
+          "value": 19.99
+        },
+        {
+          "date": "1993",
+          "value": 20.15
+        },
+        {
+          "date": "1994",
+          "value": 20.31
+        },
+        {
+          "date": "1995",
+          "value": 20.16
+        },
+        {
+          "date": "1996",
+          "value": 20.11
+        },
+        {
+          "date": "1997",
+          "value": 20.19
+        },
+        {
+          "date": "1998",
+          "value": 20.64
+        },
+        {
+          "date": "1999",
+          "value": 20.89
+        },
+        {
+          "date": "2000",
+          "value": 20.69
+        },
+        {
+          "date": "2001",
+          "value": 20.36
+        },
+        {
+          "date": "2002",
+          "value": 20.05
+        },
+        {
+          "date": "2003",
+          "value": 19.9
+        },
+        {
+          "date": "2004",
+          "value": 19.62
+        },
+        {
+          "date": "2005",
+          "value": 19.43
+        },
+        {
+          "date": "2006",
+          "value": 18.79
+        },
+        {
+          "date": "2007",
+          "value": 18.18
+        },
+        {
+          "date": "2008",
+          "value": 17.51
+        },
+        {
+          "date": "2009",
+          "value": 17.02
+        },
+        {
+          "date": "2010",
+          "value": 16.59
+        },
+        {
+          "date": "2011",
+          "value": 16.13
+        },
+        {
+          "date": "2012",
+          "value": 15.96
+        },
+        {
+          "date": "2013",
+          "value": 15.78
+        },
+        {
+          "date": "2014",
+          "value": 15.84
+        },
+        {
+          "date": "2015",
+          "value": 16.08
+        },
+        {
+          "date": "2016",
+          "value": 15.87
+        },
+        {
+          "date": "2017",
+          "value": 15.67
+        },
+        {
+          "date": "2018",
+          "value": 15.51
+        },
+        {
+          "date": "2019",
+          "value": 15.27
+        },
+        {
+          "date": "2020",
+          "value": 15.18
+        },
+        {
+          "date": "2021",
+          "value": 15.06
+        },
+        {
+          "date": "2022",
+          "value": 14.81
+        },
+        {
+          "date": "2023",
+          "value": 14.7
+        },
+        {
+          "date": "2024",
+          "value": 14.62
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "2005",
+          "value": 19.43
+        },
+        {
+          "date": "2006",
+          "value": 18.79
+        },
+        {
+          "date": "2007",
+          "value": 18.18
+        },
+        {
+          "date": "2008",
+          "value": 17.51
+        },
+        {
+          "date": "2009",
+          "value": 17.02
+        },
+        {
+          "date": "2010",
+          "value": 16.59
+        },
+        {
+          "date": "2011",
+          "value": 16.13
+        },
+        {
+          "date": "2012",
+          "value": 15.96
+        },
+        {
+          "date": "2013",
+          "value": 15.78
+        },
+        {
+          "date": "2014",
+          "value": 15.84
+        },
+        {
+          "date": "2015",
+          "value": 16.08
+        },
+        {
+          "date": "2016",
+          "value": 15.87
+        },
+        {
+          "date": "2017",
+          "value": 15.67
+        },
+        {
+          "date": "2018",
+          "value": 15.51
+        },
+        {
+          "date": "2019",
+          "value": 15.27
+        },
+        {
+          "date": "2020",
+          "value": 15.18
+        },
+        {
+          "date": "2021",
+          "value": 15.06
+        },
+        {
+          "date": "2022",
+          "value": 14.81
+        },
+        {
+          "date": "2023",
+          "value": 14.7
+        },
+        {
+          "date": "2024",
+          "value": 14.62
+        }
+      ]
+    },
+    "EXPORT_SHARE": {
+      "id": "EXPORT_SHARE",
+      "name": "US Share of Global Exports",
+      "series_id": "World Bank/WTO",
+      "latest_value": 9.89,
+      "fmt": "percent",
+      "direction": "positive",
+      "score": 16.8,
+      "trend_pct": 3.24,
+      "full_min": 9.09,
+      "full_max": 13.84,
+      "time_series": [
+        {
+          "date": "1990",
+          "value": 12.76
+        },
+        {
+          "date": "1991",
+          "value": 13.27
+        },
+        {
+          "date": "1992",
+          "value": 12.49
+        },
+        {
+          "date": "1993",
+          "value": 13.32
+        },
+        {
+          "date": "1994",
+          "value": 13.24
+        },
+        {
+          "date": "1995",
+          "value": 12.6
+        },
+        {
+          "date": "1996",
+          "value": 12.87
+        },
+        {
+          "date": "1997",
+          "value": 13.64
+        },
+        {
+          "date": "1998",
+          "value": 13.78
+        },
+        {
+          "date": "1999",
+          "value": 13.84
+        },
+        {
+          "date": "2000",
+          "value": 13.78
+        },
+        {
+          "date": "2001",
+          "value": 13.33
+        },
+        {
+          "date": "2002",
+          "value": 12.34
+        },
+        {
+          "date": "2003",
+          "value": 11.05
+        },
+        {
+          "date": "2004",
+          "value": 10.34
+        },
+        {
+          "date": "2005",
+          "value": 10.07
+        },
+        {
+          "date": "2006",
+          "value": 9.89
+        },
+        {
+          "date": "2007",
+          "value": 9.59
+        },
+        {
+          "date": "2008",
+          "value": 9.29
+        },
+        {
+          "date": "2009",
+          "value": 9.92
+        },
+        {
+          "date": "2010",
+          "value": 9.77
+        },
+        {
+          "date": "2011",
+          "value": 9.41
+        },
+        {
+          "date": "2012",
+          "value": 9.72
+        },
+        {
+          "date": "2013",
+          "value": 9.75
+        },
+        {
+          "date": "2014",
+          "value": 9.97
+        },
+        {
+          "date": "2015",
+          "value": 10.67
+        },
+        {
+          "date": "2016",
+          "value": 10.71
+        },
+        {
+          "date": "2017",
+          "value": 10.39
+        },
+        {
+          "date": "2018",
+          "value": 10.07
+        },
+        {
+          "date": "2019",
+          "value": 10.24
+        },
+        {
+          "date": "2020",
+          "value": 9.58
+        },
+        {
+          "date": "2021",
+          "value": 9.09
+        },
+        {
+          "date": "2022",
+          "value": 9.55
+        },
+        {
+          "date": "2023",
+          "value": 9.81
+        },
+        {
+          "date": "2024",
+          "value": 9.89
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "2005",
+          "value": 10.07
+        },
+        {
+          "date": "2006",
+          "value": 9.89
+        },
+        {
+          "date": "2007",
+          "value": 9.59
+        },
+        {
+          "date": "2008",
+          "value": 9.29
+        },
+        {
+          "date": "2009",
+          "value": 9.92
+        },
+        {
+          "date": "2010",
+          "value": 9.77
+        },
+        {
+          "date": "2011",
+          "value": 9.41
+        },
+        {
+          "date": "2012",
+          "value": 9.72
+        },
+        {
+          "date": "2013",
+          "value": 9.75
+        },
+        {
+          "date": "2014",
+          "value": 9.97
+        },
+        {
+          "date": "2015",
+          "value": 10.67
+        },
+        {
+          "date": "2016",
+          "value": 10.71
+        },
+        {
+          "date": "2017",
+          "value": 10.39
+        },
+        {
+          "date": "2018",
+          "value": 10.07
+        },
+        {
+          "date": "2019",
+          "value": 10.24
+        },
+        {
+          "date": "2020",
+          "value": 9.58
+        },
+        {
+          "date": "2021",
+          "value": 9.09
+        },
+        {
+          "date": "2022",
+          "value": 9.55
+        },
+        {
+          "date": "2023",
+          "value": 9.81
+        },
+        {
+          "date": "2024",
+          "value": 9.89
+        }
+      ]
+    },
+    "PATENT_SHARE": {
+      "id": "PATENT_SHARE",
+      "name": "US Share of Global Patents",
+      "series_id": "WIPO",
+      "latest_value": 14.1,
+      "fmt": "percent",
+      "direction": "positive",
+      "score": 0,
+      "trend_pct": -2.76,
+      "full_min": 14.1,
+      "full_max": 22.5,
+      "time_series": [
+        {
+          "date": "2000",
+          "value": 22.5
+        },
+        {
+          "date": "2001",
+          "value": 22.1
+        },
+        {
+          "date": "2002",
+          "value": 21.5
+        },
+        {
+          "date": "2003",
+          "value": 20.8
+        },
+        {
+          "date": "2004",
+          "value": 20.2
+        },
+        {
+          "date": "2005",
+          "value": 19.8
+        },
+        {
+          "date": "2006",
+          "value": 19.2
+        },
+        {
+          "date": "2007",
+          "value": 18.5
+        },
+        {
+          "date": "2008",
+          "value": 18.0
+        },
+        {
+          "date": "2009",
+          "value": 17.8
+        },
+        {
+          "date": "2010",
+          "value": 17.3
+        },
+        {
+          "date": "2011",
+          "value": 16.8
+        },
+        {
+          "date": "2012",
+          "value": 16.5
+        },
+        {
+          "date": "2013",
+          "value": 16.2
+        },
+        {
+          "date": "2014",
+          "value": 16.0
+        },
+        {
+          "date": "2015",
+          "value": 15.8
+        },
+        {
+          "date": "2016",
+          "value": 15.5
+        },
+        {
+          "date": "2017",
+          "value": 15.2
+        },
+        {
+          "date": "2018",
+          "value": 15.0
+        },
+        {
+          "date": "2019",
+          "value": 14.8
+        },
+        {
+          "date": "2020",
+          "value": 14.5
+        },
+        {
+          "date": "2021",
+          "value": 14.3
+        },
+        {
+          "date": "2022",
+          "value": 14.7
+        },
+        {
+          "date": "2023",
+          "value": 16.8
+        },
+        {
+          "date": "2024",
+          "value": 14.1
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "2005",
+          "value": 19.8
+        },
+        {
+          "date": "2006",
+          "value": 19.2
+        },
+        {
+          "date": "2007",
+          "value": 18.5
+        },
+        {
+          "date": "2008",
+          "value": 18.0
+        },
+        {
+          "date": "2009",
+          "value": 17.8
+        },
+        {
+          "date": "2010",
+          "value": 17.3
+        },
+        {
+          "date": "2011",
+          "value": 16.8
+        },
+        {
+          "date": "2012",
+          "value": 16.5
+        },
+        {
+          "date": "2013",
+          "value": 16.2
+        },
+        {
+          "date": "2014",
+          "value": 16.0
+        },
+        {
+          "date": "2015",
+          "value": 15.8
+        },
+        {
+          "date": "2016",
+          "value": 15.5
+        },
+        {
+          "date": "2017",
+          "value": 15.2
+        },
+        {
+          "date": "2018",
+          "value": 15.0
+        },
+        {
+          "date": "2019",
+          "value": 14.8
+        },
+        {
+          "date": "2020",
+          "value": 14.5
+        },
+        {
+          "date": "2021",
+          "value": 14.3
+        },
+        {
+          "date": "2022",
+          "value": 14.7
+        },
+        {
+          "date": "2023",
+          "value": 16.8
+        },
+        {
+          "date": "2024",
+          "value": 14.1
+        }
+      ]
+    },
+    "MIL_SHARE": {
+      "id": "MIL_SHARE",
+      "name": "US Military Spending (% of World)",
+      "series_id": "SIPRI",
+      "latest_value": 37.0,
+      "fmt": "percent",
+      "direction": "positive",
+      "score": 33.3,
+      "trend_pct": -5.13,
+      "full_min": 34.0,
+      "full_max": 43.0,
+      "time_series": [
+        {
+          "date": "1990",
+          "value": 36.0
+        },
+        {
+          "date": "1995",
+          "value": 34.0
+        },
+        {
+          "date": "2000",
+          "value": 36.0
+        },
+        {
+          "date": "2005",
+          "value": 42.0
+        },
+        {
+          "date": "2006",
+          "value": 41.0
+        },
+        {
+          "date": "2007",
+          "value": 40.0
+        },
+        {
+          "date": "2008",
+          "value": 41.0
+        },
+        {
+          "date": "2009",
+          "value": 43.0
+        },
+        {
+          "date": "2010",
+          "value": 42.0
+        },
+        {
+          "date": "2011",
+          "value": 41.0
+        },
+        {
+          "date": "2012",
+          "value": 39.0
+        },
+        {
+          "date": "2013",
+          "value": 37.0
+        },
+        {
+          "date": "2014",
+          "value": 35.0
+        },
+        {
+          "date": "2015",
+          "value": 35.0
+        },
+        {
+          "date": "2016",
+          "value": 35.0
+        },
+        {
+          "date": "2017",
+          "value": 35.0
+        },
+        {
+          "date": "2018",
+          "value": 36.0
+        },
+        {
+          "date": "2019",
+          "value": 36.0
+        },
+        {
+          "date": "2020",
+          "value": 39.0
+        },
+        {
+          "date": "2021",
+          "value": 38.0
+        },
+        {
+          "date": "2022",
+          "value": 38.0
+        },
+        {
+          "date": "2023",
+          "value": 37.0
+        },
+        {
+          "date": "2024",
+          "value": 37.0
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "2005",
+          "value": 42.0
+        },
+        {
+          "date": "2006",
+          "value": 41.0
+        },
+        {
+          "date": "2007",
+          "value": 40.0
+        },
+        {
+          "date": "2008",
+          "value": 41.0
+        },
+        {
+          "date": "2009",
+          "value": 43.0
+        },
+        {
+          "date": "2010",
+          "value": 42.0
+        },
+        {
+          "date": "2011",
+          "value": 41.0
+        },
+        {
+          "date": "2012",
+          "value": 39.0
+        },
+        {
+          "date": "2013",
+          "value": 37.0
+        },
+        {
+          "date": "2014",
+          "value": 35.0
+        },
+        {
+          "date": "2015",
+          "value": 35.0
+        },
+        {
+          "date": "2016",
+          "value": 35.0
+        },
+        {
+          "date": "2017",
+          "value": 35.0
+        },
+        {
+          "date": "2018",
+          "value": 36.0
+        },
+        {
+          "date": "2019",
+          "value": 36.0
+        },
+        {
+          "date": "2020",
+          "value": 39.0
+        },
+        {
+          "date": "2021",
+          "value": 38.0
+        },
+        {
+          "date": "2022",
+          "value": 38.0
+        },
+        {
+          "date": "2023",
+          "value": 37.0
+        },
+        {
+          "date": "2024",
+          "value": 37.0
+        }
+      ]
+    },
+    "DALIO_US": {
+      "id": "DALIO_US",
+      "name": "Dalio Power Index (US)",
+      "series_id": "Bridgewater",
+      "latest_value": 0.89,
+      "fmt": "decimal",
+      "direction": "positive",
+      "score": 89.0,
+      "trend_pct": 2.3,
+      "full_min": 0.0,
+      "full_max": 1.0,
+      "time_series": [
+        {
+          "date": "2020",
+          "value": 0.87
+        },
+        {
+          "date": "2022",
+          "value": 0.88
+        },
+        {
+          "date": "2024",
+          "value": 0.89
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "2020",
+          "value": 0.87
+        },
+        {
+          "date": "2022",
+          "value": 0.88
+        },
+        {
+          "date": "2024",
+          "value": 0.89
+        }
+      ]
+    },
+    "DALIO_DIFF": {
+      "id": "DALIO_DIFF",
+      "name": "US-China Power Differential",
+      "series_id": "Bridgewater",
+      "latest_value": 0.09,
+      "fmt": "decimal",
+      "direction": "positive",
+      "score": 18.0,
+      "trend_pct": -25.0,
+      "full_min": 0.0,
+      "full_max": 0.5,
+      "time_series": [
+        {
+          "date": "2020",
+          "value": 0.12
+        },
+        {
+          "date": "2022",
+          "value": 0.1
+        },
+        {
+          "date": "2024",
+          "value": 0.09
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "2020",
+          "value": 0.12
+        },
+        {
+          "date": "2022",
+          "value": 0.1
+        },
+        {
+          "date": "2024",
+          "value": 0.09
+        }
+      ]
+    },
+    "ECO_RATIO": {
+      "id": "ECO_RATIO",
+      "name": "Ecological Footprint / Biocapacity",
+      "series_id": "Global Footprint Network",
+      "latest_value": 2.1,
+      "fmt": "decimal",
+      "direction": "negative",
+      "score": 35.1,
+      "trend_pct": -5.41,
+      "full_min": 1.38,
+      "full_max": 2.49,
+      "time_series": [
+        {
+          "date": "1961",
+          "value": 1.38
+        },
+        {
+          "date": "1965",
+          "value": 1.53
+        },
+        {
+          "date": "1970",
+          "value": 1.82
+        },
+        {
+          "date": "1975",
+          "value": 1.88
+        },
+        {
+          "date": "1980",
+          "value": 2.09
+        },
+        {
+          "date": "1985",
+          "value": 2.04
+        },
+        {
+          "date": "1990",
+          "value": 2.21
+        },
+        {
+          "date": "1995",
+          "value": 2.29
+        },
+        {
+          "date": "2000",
+          "value": 2.49
+        },
+        {
+          "date": "2005",
+          "value": 2.43
+        },
+        {
+          "date": "2010",
+          "value": 2.22
+        },
+        {
+          "date": "2012",
+          "value": 2.19
+        },
+        {
+          "date": "2014",
+          "value": 2.22
+        },
+        {
+          "date": "2016",
+          "value": 2.19
+        },
+        {
+          "date": "2018",
+          "value": 2.22
+        },
+        {
+          "date": "2020",
+          "value": 2.04
+        },
+        {
+          "date": "2021",
+          "value": 2.14
+        },
+        {
+          "date": "2022",
+          "value": 2.1
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "1961",
+          "value": 1.38
+        },
+        {
+          "date": "1965",
+          "value": 1.53
+        },
+        {
+          "date": "1970",
+          "value": 1.82
+        },
+        {
+          "date": "1975",
+          "value": 1.88
+        },
+        {
+          "date": "1980",
+          "value": 2.09
+        },
+        {
+          "date": "1985",
+          "value": 2.04
+        },
+        {
+          "date": "1990",
+          "value": 2.21
+        },
+        {
+          "date": "1995",
+          "value": 2.29
+        },
+        {
+          "date": "2000",
+          "value": 2.49
+        },
+        {
+          "date": "2005",
+          "value": 2.43
+        },
+        {
+          "date": "2010",
+          "value": 2.22
+        },
+        {
+          "date": "2012",
+          "value": 2.19
+        },
+        {
+          "date": "2014",
+          "value": 2.22
+        },
+        {
+          "date": "2016",
+          "value": 2.19
+        },
+        {
+          "date": "2018",
+          "value": 2.22
+        },
+        {
+          "date": "2020",
+          "value": 2.04
+        },
+        {
+          "date": "2021",
+          "value": 2.14
+        },
+        {
+          "date": "2022",
+          "value": 2.1
+        }
+      ]
+    },
+    "FRESHWATER": {
+      "id": "FRESHWATER",
+      "name": "Freshwater Withdrawal (% renewable)",
+      "series_id": "World Bank/USGS",
+      "latest_value": 15.7661462029808,
+      "fmt": "percent",
+      "direction": "negative",
+      "score": 74.2,
+      "trend_pct": 0.0,
+      "full_min": 14.86160397445,
+      "full_max": 18.3676366217175,
+      "time_series": [
+        {
+          "date": "1980",
+          "value": 18.3676366217175
+        },
+        {
+          "date": "1981",
+          "value": 18.1813342796309
+        },
+        {
+          "date": "1982",
+          "value": 17.9950319375444
+        },
+        {
+          "date": "1983",
+          "value": 17.8087295954578
+        },
+        {
+          "date": "1984",
+          "value": 17.6224272533712
+        },
+        {
+          "date": "1985",
+          "value": 17.4361249112846
+        },
+        {
+          "date": "1986",
+          "value": 17.249822569198
+        },
+        {
+          "date": "1987",
+          "value": 17.0635202271114
+        },
+        {
+          "date": "1988",
+          "value": 16.8772178850248
+        },
+        {
+          "date": "1989",
+          "value": 16.6909155429383
+        },
+        {
+          "date": "1990",
+          "value": 16.5046132008517
+        },
+        {
+          "date": "1991",
+          "value": 16.5347764371895
+        },
+        {
+          "date": "1992",
+          "value": 16.5649396735273
+        },
+        {
+          "date": "1993",
+          "value": 16.5951029098652
+        },
+        {
+          "date": "1994",
+          "value": 16.625266146203
+        },
+        {
+          "date": "1995",
+          "value": 16.6554293825408
+        },
+        {
+          "date": "1996",
+          "value": 16.6855926188786
+        },
+        {
+          "date": "1997",
+          "value": 16.7157558552165
+        },
+        {
+          "date": "1998",
+          "value": 16.7459190915543
+        },
+        {
+          "date": "1999",
+          "value": 16.7760823278921
+        },
+        {
+          "date": "2000",
+          "value": 16.80624556423
+        },
+        {
+          "date": "2001",
+          "value": 16.8417317246274
+        },
+        {
+          "date": "2002",
+          "value": 16.8772178850248
+        },
+        {
+          "date": "2003",
+          "value": 16.9127040454223
+        },
+        {
+          "date": "2004",
+          "value": 16.9481902058197
+        },
+        {
+          "date": "2005",
+          "value": 16.9836763662172
+        },
+        {
+          "date": "2006",
+          "value": 16.5592618878637
+        },
+        {
+          "date": "2007",
+          "value": 16.1348474095103
+        },
+        {
+          "date": "2008",
+          "value": 15.7104329311569
+        },
+        {
+          "date": "2009",
+          "value": 15.2860184528034
+        },
+        {
+          "date": "2010",
+          "value": 14.86160397445
+        },
+        {
+          "date": "2011",
+          "value": 15.0425124201561
+        },
+        {
+          "date": "2012",
+          "value": 15.2234208658623
+        },
+        {
+          "date": "2013",
+          "value": 15.4043293115685
+        },
+        {
+          "date": "2014",
+          "value": 15.5852377572747
+        },
+        {
+          "date": "2015",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2016",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2017",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2018",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2019",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2020",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2021",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2022",
+          "value": 15.7661462029808
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "2003",
+          "value": 16.9127040454223
+        },
+        {
+          "date": "2004",
+          "value": 16.9481902058197
+        },
+        {
+          "date": "2005",
+          "value": 16.9836763662172
+        },
+        {
+          "date": "2006",
+          "value": 16.5592618878637
+        },
+        {
+          "date": "2007",
+          "value": 16.1348474095103
+        },
+        {
+          "date": "2008",
+          "value": 15.7104329311569
+        },
+        {
+          "date": "2009",
+          "value": 15.2860184528034
+        },
+        {
+          "date": "2010",
+          "value": 14.86160397445
+        },
+        {
+          "date": "2011",
+          "value": 15.0425124201561
+        },
+        {
+          "date": "2012",
+          "value": 15.2234208658623
+        },
+        {
+          "date": "2013",
+          "value": 15.4043293115685
+        },
+        {
+          "date": "2014",
+          "value": 15.5852377572747
+        },
+        {
+          "date": "2015",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2016",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2017",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2018",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2019",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2020",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2021",
+          "value": 15.7661462029808
+        },
+        {
+          "date": "2022",
+          "value": 15.7661462029808
+        }
+      ]
+    },
+    "FOREST_COVER": {
+      "id": "FOREST_COVER",
+      "name": "Forest Cover (% land area)",
+      "series_id": "World Bank/USDA",
+      "latest_value": 33.8669264120375,
+      "fmt": "percent",
+      "direction": "positive",
+      "score": 96.3,
+      "trend_pct": 0.0,
+      "full_min": 33.0223082096657,
+      "full_max": 33.8997225447175,
+      "time_series": [
+        {
+          "date": "1990",
+          "value": 33.0223082096657
+        },
+        {
+          "date": "1991",
+          "value": 33.0341654510992
+        },
+        {
+          "date": "1992",
+          "value": 33.0460226925328
+        },
+        {
+          "date": "1993",
+          "value": 33.0578799339663
+        },
+        {
+          "date": "1994",
+          "value": 33.0697371753998
+        },
+        {
+          "date": "1995",
+          "value": 33.0815944168334
+        },
+        {
+          "date": "1996",
+          "value": 33.0934516582669
+        },
+        {
+          "date": "1997",
+          "value": 33.1053088997004
+        },
+        {
+          "date": "1998",
+          "value": 33.1171661411339
+        },
+        {
+          "date": "1999",
+          "value": 33.1290233825675
+        },
+        {
+          "date": "2000",
+          "value": 33.1301735880689
+        },
+        {
+          "date": "2001",
+          "value": 33.1867556145437
+        },
+        {
+          "date": "2002",
+          "value": 33.2433376410185
+        },
+        {
+          "date": "2003",
+          "value": 33.2999196674933
+        },
+        {
+          "date": "2004",
+          "value": 33.3565016939681
+        },
+        {
+          "date": "2005",
+          "value": 33.4130837204429
+        },
+        {
+          "date": "2006",
+          "value": 33.4696657469177
+        },
+        {
+          "date": "2007",
+          "value": 33.5262477733925
+        },
+        {
+          "date": "2008",
+          "value": 33.6360635020585
+        },
+        {
+          "date": "2009",
+          "value": 33.6927352193296
+        },
+        {
+          "date": "2010",
+          "value": 33.7494069366007
+        },
+        {
+          "date": "2011",
+          "value": 33.7794700582241
+        },
+        {
+          "date": "2012",
+          "value": 33.8095331798474
+        },
+        {
+          "date": "2013",
+          "value": 33.8395963014708
+        },
+        {
+          "date": "2014",
+          "value": 33.8696594230942
+        },
+        {
+          "date": "2015",
+          "value": 33.8997225447175
+        },
+        {
+          "date": "2016",
+          "value": 33.8997225447175
+        },
+        {
+          "date": "2017",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2018",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2019",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2020",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2021",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2022",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2023",
+          "value": 33.8669264120375
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "2004",
+          "value": 33.3565016939681
+        },
+        {
+          "date": "2005",
+          "value": 33.4130837204429
+        },
+        {
+          "date": "2006",
+          "value": 33.4696657469177
+        },
+        {
+          "date": "2007",
+          "value": 33.5262477733925
+        },
+        {
+          "date": "2008",
+          "value": 33.6360635020585
+        },
+        {
+          "date": "2009",
+          "value": 33.6927352193296
+        },
+        {
+          "date": "2010",
+          "value": 33.7494069366007
+        },
+        {
+          "date": "2011",
+          "value": 33.7794700582241
+        },
+        {
+          "date": "2012",
+          "value": 33.8095331798474
+        },
+        {
+          "date": "2013",
+          "value": 33.8395963014708
+        },
+        {
+          "date": "2014",
+          "value": 33.8696594230942
+        },
+        {
+          "date": "2015",
+          "value": 33.8997225447175
+        },
+        {
+          "date": "2016",
+          "value": 33.8997225447175
+        },
+        {
+          "date": "2017",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2018",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2019",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2020",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2021",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2022",
+          "value": 33.8669264120375
+        },
+        {
+          "date": "2023",
+          "value": 33.8669264120375
+        }
+      ]
+    },
+    "SOIL_EROSION": {
+      "id": "SOIL_EROSION",
+      "name": "Soil Erosion (tons/acre/year)",
+      "series_id": "USDA NRI",
+      "latest_value": 4.6,
+      "fmt": "decimal",
+      "direction": "negative",
+      "score": 100,
+      "trend_pct": -0.65,
+      "full_min": 4.6,
+      "full_max": 7.1,
+      "time_series": [
+        {
+          "date": "1982",
+          "value": 7.1
+        },
+        {
+          "date": "1987",
+          "value": 6.1
+        },
+        {
+          "date": "1992",
+          "value": 5.5
+        },
+        {
+          "date": "1997",
+          "value": 5.3
+        },
+        {
+          "date": "2002",
+          "value": 5.0
+        },
+        {
+          "date": "2007",
+          "value": 4.6
+        },
+        {
+          "date": "2012",
+          "value": 4.6
+        },
+        {
+          "date": "2015",
+          "value": 4.63
+        },
+        {
+          "date": "2017",
+          "value": 4.64
+        },
+        {
+          "date": "2020",
+          "value": 4.6
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "1982",
+          "value": 7.1
+        },
+        {
+          "date": "1987",
+          "value": 6.1
+        },
+        {
+          "date": "1992",
+          "value": 5.5
+        },
+        {
+          "date": "1997",
+          "value": 5.3
+        },
+        {
+          "date": "2002",
+          "value": 5.0
+        },
+        {
+          "date": "2007",
+          "value": 4.6
+        },
+        {
+          "date": "2012",
+          "value": 4.6
+        },
+        {
+          "date": "2015",
+          "value": 4.63
+        },
+        {
+          "date": "2017",
+          "value": 4.64
+        },
+        {
+          "date": "2020",
+          "value": 4.6
+        }
+      ]
+    },
+    "FOSSIL_PCT": {
+      "id": "FOSSIL_PCT",
+      "name": "Fossil Fuel (% primary energy)",
+      "series_id": "EIA",
+      "latest_value": 82.0,
+      "fmt": "percent",
+      "direction": "negative",
+      "score": 82.4,
+      "trend_pct": 3.8,
+      "full_min": 79.0,
+      "full_max": 96.0,
+      "time_series": [
+        {
+          "date": "1950",
+          "value": 96.0
+        },
+        {
+          "date": "1960",
+          "value": 95.0
+        },
+        {
+          "date": "1970",
+          "value": 94.0
+        },
+        {
+          "date": "1975",
+          "value": 93.0
+        },
+        {
+          "date": "1980",
+          "value": 90.0
+        },
+        {
+          "date": "1985",
+          "value": 88.0
+        },
+        {
+          "date": "1990",
+          "value": 86.0
+        },
+        {
+          "date": "1995",
+          "value": 85.0
+        },
+        {
+          "date": "2000",
+          "value": 86.0
+        },
+        {
+          "date": "2005",
+          "value": 86.0
+        },
+        {
+          "date": "2008",
+          "value": 85.0
+        },
+        {
+          "date": "2010",
+          "value": 83.0
+        },
+        {
+          "date": "2012",
+          "value": 82.0
+        },
+        {
+          "date": "2014",
+          "value": 82.0
+        },
+        {
+          "date": "2015",
+          "value": 82.0
+        },
+        {
+          "date": "2016",
+          "value": 81.0
+        },
+        {
+          "date": "2017",
+          "value": 80.0
+        },
+        {
+          "date": "2018",
+          "value": 80.0
+        },
+        {
+          "date": "2019",
+          "value": 80.0
+        },
+        {
+          "date": "2020",
+          "value": 79.0
+        },
+        {
+          "date": "2021",
+          "value": 79.0
+        },
+        {
+          "date": "2022",
+          "value": 80.0
+        },
+        {
+          "date": "2023",
+          "value": 81.0
+        },
+        {
+          "date": "2024",
+          "value": 82.0
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "1980",
+          "value": 90.0
+        },
+        {
+          "date": "1985",
+          "value": 88.0
+        },
+        {
+          "date": "1990",
+          "value": 86.0
+        },
+        {
+          "date": "1995",
+          "value": 85.0
+        },
+        {
+          "date": "2000",
+          "value": 86.0
+        },
+        {
+          "date": "2005",
+          "value": 86.0
+        },
+        {
+          "date": "2008",
+          "value": 85.0
+        },
+        {
+          "date": "2010",
+          "value": 83.0
+        },
+        {
+          "date": "2012",
+          "value": 82.0
+        },
+        {
+          "date": "2014",
+          "value": 82.0
+        },
+        {
+          "date": "2015",
+          "value": 82.0
+        },
+        {
+          "date": "2016",
+          "value": 81.0
+        },
+        {
+          "date": "2017",
+          "value": 80.0
+        },
+        {
+          "date": "2018",
+          "value": 80.0
+        },
+        {
+          "date": "2019",
+          "value": 80.0
+        },
+        {
+          "date": "2020",
+          "value": 79.0
+        },
+        {
+          "date": "2021",
+          "value": 79.0
+        },
+        {
+          "date": "2022",
+          "value": 80.0
+        },
+        {
+          "date": "2023",
+          "value": 81.0
+        },
+        {
+          "date": "2024",
+          "value": 82.0
+        }
+      ]
+    },
+    "RENEWABLE_PCT": {
+      "id": "RENEWABLE_PCT",
+      "name": "Renewable Energy Share (%)",
+      "series_id": "EIA",
+      "latest_value": 14.0,
+      "fmt": "percent",
+      "direction": "positive",
+      "score": 100,
+      "trend_pct": 16.67,
+      "full_min": 3.0,
+      "full_max": 14.0,
+      "time_series": [
+        {
+          "date": "1950",
+          "value": 3.0
+        },
+        {
+          "date": "1960",
+          "value": 3.5
+        },
+        {
+          "date": "1970",
+          "value": 4.0
+        },
+        {
+          "date": "1975",
+          "value": 4.5
+        },
+        {
+          "date": "1980",
+          "value": 5.0
+        },
+        {
+          "date": "1985",
+          "value": 5.5
+        },
+        {
+          "date": "1990",
+          "value": 6.0
+        },
+        {
+          "date": "1995",
+          "value": 6.5
+        },
+        {
+          "date": "2000",
+          "value": 6.0
+        },
+        {
+          "date": "2005",
+          "value": 6.0
+        },
+        {
+          "date": "2008",
+          "value": 7.0
+        },
+        {
+          "date": "2010",
+          "value": 8.0
+        },
+        {
+          "date": "2012",
+          "value": 9.0
+        },
+        {
+          "date": "2014",
+          "value": 9.5
+        },
+        {
+          "date": "2015",
+          "value": 9.7
+        },
+        {
+          "date": "2016",
+          "value": 10.0
+        },
+        {
+          "date": "2017",
+          "value": 11.0
+        },
+        {
+          "date": "2018",
+          "value": 11.0
+        },
+        {
+          "date": "2019",
+          "value": 11.5
+        },
+        {
+          "date": "2020",
+          "value": 12.0
+        },
+        {
+          "date": "2021",
+          "value": 12.5
+        },
+        {
+          "date": "2022",
+          "value": 13.0
+        },
+        {
+          "date": "2023",
+          "value": 13.0
+        },
+        {
+          "date": "2024",
+          "value": 14.0
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "1980",
+          "value": 5.0
+        },
+        {
+          "date": "1985",
+          "value": 5.5
+        },
+        {
+          "date": "1990",
+          "value": 6.0
+        },
+        {
+          "date": "1995",
+          "value": 6.5
+        },
+        {
+          "date": "2000",
+          "value": 6.0
+        },
+        {
+          "date": "2005",
+          "value": 6.0
+        },
+        {
+          "date": "2008",
+          "value": 7.0
+        },
+        {
+          "date": "2010",
+          "value": 8.0
+        },
+        {
+          "date": "2012",
+          "value": 9.0
+        },
+        {
+          "date": "2014",
+          "value": 9.5
+        },
+        {
+          "date": "2015",
+          "value": 9.7
+        },
+        {
+          "date": "2016",
+          "value": 10.0
+        },
+        {
+          "date": "2017",
+          "value": 11.0
+        },
+        {
+          "date": "2018",
+          "value": 11.0
+        },
+        {
+          "date": "2019",
+          "value": 11.5
+        },
+        {
+          "date": "2020",
+          "value": 12.0
+        },
+        {
+          "date": "2021",
+          "value": 12.5
+        },
+        {
+          "date": "2022",
+          "value": 13.0
+        },
+        {
+          "date": "2023",
+          "value": 13.0
+        },
+        {
+          "date": "2024",
+          "value": 14.0
+        }
+      ]
+    },
+    "EROI": {
+      "id": "EROI",
+      "name": "Energy Return on Investment (EROI)",
+      "series_id": "Hall et al.",
+      "latest_value": 9.5,
+      "fmt": "decimal",
+      "direction": "positive",
+      "score": 0,
+      "trend_pct": -5.0,
+      "full_min": 9.5,
+      "full_max": 100.0,
+      "time_series": [
+        {
+          "date": "1930",
+          "value": 100.0
+        },
+        {
+          "date": "1950",
+          "value": 80.0
+        },
+        {
+          "date": "1970",
+          "value": 30.0
+        },
+        {
+          "date": "1980",
+          "value": 23.0
+        },
+        {
+          "date": "1990",
+          "value": 18.0
+        },
+        {
+          "date": "2000",
+          "value": 15.0
+        },
+        {
+          "date": "2005",
+          "value": 14.0
+        },
+        {
+          "date": "2010",
+          "value": 12.0
+        },
+        {
+          "date": "2015",
+          "value": 11.0
+        },
+        {
+          "date": "2020",
+          "value": 10.0
+        },
+        {
+          "date": "2024",
+          "value": 9.5
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "1930",
+          "value": 100.0
+        },
+        {
+          "date": "1950",
+          "value": 80.0
+        },
+        {
+          "date": "1970",
+          "value": 30.0
+        },
+        {
+          "date": "1980",
+          "value": 23.0
+        },
+        {
+          "date": "1990",
+          "value": 18.0
+        },
+        {
+          "date": "2000",
+          "value": 15.0
+        },
+        {
+          "date": "2005",
+          "value": 14.0
+        },
+        {
+          "date": "2010",
+          "value": 12.0
+        },
+        {
+          "date": "2015",
+          "value": 11.0
+        },
+        {
+          "date": "2020",
+          "value": 10.0
+        },
+        {
+          "date": "2024",
+          "value": 9.5
+        }
+      ]
+    },
+    "ENERGY_INTENSITY": {
+      "id": "ENERGY_INTENSITY",
+      "name": "Energy Intensity (kBTU per $ GDP)",
+      "series_id": "EIA MER 1.7",
+      "latest_value": 4.68,
+      "fmt": "decimal",
+      "direction": "negative",
+      "score": 100,
+      "trend_pct": -11.2,
+      "full_min": 4.68,
+      "full_max": 10.68,
+      "time_series": [
+        {
+          "date": "1980",
+          "value": 10.68
+        },
+        {
+          "date": "1985",
+          "value": 9.48
+        },
+        {
+          "date": "1990",
+          "value": 8.87
+        },
+        {
+          "date": "1995",
+          "value": 8.36
+        },
+        {
+          "date": "2000",
+          "value": 7.72
+        },
+        {
+          "date": "2005",
+          "value": 7.16
+        },
+        {
+          "date": "2008",
+          "value": 6.67
+        },
+        {
+          "date": "2010",
+          "value": 6.53
+        },
+        {
+          "date": "2012",
+          "value": 6.14
+        },
+        {
+          "date": "2014",
+          "value": 5.96
+        },
+        {
+          "date": "2015",
+          "value": 5.75
+        },
+        {
+          "date": "2016",
+          "value": 5.61
+        },
+        {
+          "date": "2017",
+          "value": 5.49
+        },
+        {
+          "date": "2018",
+          "value": 5.42
+        },
+        {
+          "date": "2019",
+          "value": 5.27
+        },
+        {
+          "date": "2020",
+          "value": 5.05
+        },
+        {
+          "date": "2021",
+          "value": 5.1
+        },
+        {
+          "date": "2022",
+          "value": 4.97
+        },
+        {
+          "date": "2023",
+          "value": 4.8
+        },
+        {
+          "date": "2024",
+          "value": 4.68
+        }
+      ],
+      "sparkline": [
+        {
+          "date": "2005",
+          "value": 7.16
+        },
+        {
+          "date": "2008",
+          "value": 6.67
+        },
+        {
+          "date": "2010",
+          "value": 6.53
+        },
+        {
+          "date": "2012",
+          "value": 6.14
+        },
+        {
+          "date": "2014",
+          "value": 5.96
+        },
+        {
+          "date": "2015",
+          "value": 5.75
+        },
+        {
+          "date": "2016",
+          "value": 5.61
+        },
+        {
+          "date": "2017",
+          "value": 5.49
+        },
+        {
+          "date": "2018",
+          "value": 5.42
+        },
+        {
+          "date": "2019",
+          "value": 5.27
+        },
+        {
+          "date": "2020",
+          "value": 5.05
+        },
+        {
+          "date": "2021",
+          "value": 5.1
+        },
+        {
+          "date": "2022",
+          "value": 4.97
+        },
+        {
+          "date": "2023",
+          "value": 4.8
+        },
+        {
+          "date": "2024",
+          "value": 4.68
+        }
+      ]
     }
   }
 }

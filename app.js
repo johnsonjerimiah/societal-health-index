@@ -137,6 +137,9 @@
     moral_cultural: '<svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/></svg>',
     elite_dynamics: '<svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.404 14.596A6.5 6.5 0 1116.5 10a1.25 1.25 0 01-2.5 0 4 4 0 10-.571 2.06A2.75 2.75 0 0018 10a8 8 0 10-2.343 5.657.75.75 0 00-1.06-1.06 6.5 6.5 0 01-9.193 0zM10 7.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5z" clip-rule="evenodd"/></svg>',
     system_complexity: '<svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.84 1.804A1 1 0 018.82 1h2.36a1 1 0 01.98.804l.331 1.652a6.993 6.993 0 011.929 1.115l1.598-.54a1 1 0 011.186.447l1.18 2.044a1 1 0 01-.205 1.251l-1.267 1.113a7.047 7.047 0 010 2.228l1.267 1.113a1 1 0 01.206 1.25l-1.18 2.045a1 1 0 01-1.187.447l-1.598-.54a6.993 6.993 0 01-1.929 1.115l-.33 1.652a1 1 0 01-.98.804H8.82a1 1 0 01-.98-.804l-.331-1.652a6.993 6.993 0 01-1.929-1.115l-1.598.54a1 1 0 01-1.186-.447l-1.18-2.044a1 1 0 01.205-1.251l1.267-1.114a7.05 7.05 0 010-2.227L1.821 7.773a1 1 0 01-.206-1.25l1.18-2.045a1 1 0 011.187-.447l1.598.54A6.993 6.993 0 017.51 3.456l.33-1.652zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/></svg>',
+    external_position: '<svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM3.101 8.743A7.02 7.02 0 003 10c0 .74.115 1.453.328 2.122a5.516 5.516 0 011.9-1.49A7.949 7.949 0 015 9c0-.74.101-1.456.29-2.136a5.533 5.533 0 01-2.19 1.879zM10 3a7.02 7.02 0 00-3.88 1.167c.529.428.98.95 1.328 1.539A5.963 5.963 0 0110 5c.953 0 1.852.222 2.652.618a5.512 5.512 0 011.36-1.564A7.02 7.02 0 0010 3z" clip-rule="evenodd"/></svg>',
+    ecological: '<svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.75A.75.75 0 0110 1zM5.05 3.05a.75.75 0 011.06 0l1.062 1.06a.75.75 0 11-1.061 1.061L5.05 4.111a.75.75 0 010-1.06zM14.95 3.05a.75.75 0 010 1.06l-1.06 1.062a.75.75 0 01-1.062-1.061l1.061-1.06a.75.75 0 011.06 0zM3 8a1 1 0 011-1h2.268A7.462 7.462 0 008.5 4.768V4.5a1 1 0 012 0v.268A7.462 7.462 0 0012.732 7H15a1 1 0 110 2h-2.268A7.462 7.462 0 0010.5 11.232v.268a1 1 0 01-2 0v-.268A7.462 7.462 0 006.268 9H4a1 1 0 01-1-1z"/><path d="M6 14.5a.75.75 0 01.75-.75h6.5a.75.75 0 010 1.5h-6.5A.75.75 0 016 14.5zM8 17a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 018 17z"/></svg>',
+    energy_entropy: '<svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M11.983 1.907a.75.75 0 00-1.292-.657l-8.5 9.5A.75.75 0 002.75 12h6.572l-1.305 6.093a.75.75 0 001.292.657l8.5-9.5A.75.75 0 0017.25 8h-6.572l1.305-6.093z"/></svg>',
   };
 
   // ---- Build Sidebar Nav ----
@@ -144,7 +147,7 @@
     if (!DATA) return;
     var container = document.getElementById("navDomains");
     container.innerHTML = "";
-    var domainOrder = ["economic_vitality", "debt_monetary", "family_demographics", "political_function", "generational", "social_trust", "institutional_health", "moral_cultural", "elite_dynamics", "system_complexity"];
+    var domainOrder = ["economic_vitality", "debt_monetary", "external_position", "family_demographics", "political_function", "generational", "social_trust", "institutional_health", "moral_cultural", "elite_dynamics", "system_complexity", "ecological", "energy_entropy"];
     domainOrder.forEach(function (dk) {
       var d = DATA.domains[dk];
       if (!d) return;
@@ -229,15 +232,15 @@
     html += "  </div>";
     html += '  <div class="composite-details">';
     html += "    <h2>US Societal Health Index</h2>";
-    html += '    <p class="composite-subtitle">Composite score across 10 domains, 33 indicators. Waves 1 &amp; 3 of 3.</p>';
+    html += '    <p class="composite-subtitle">Composite score across 13 domains, 47 indicators. All 3 waves live.</p>';
     html += '    <div class="pillar-bars">';
 
     // Pillar groupings
     var pillars = [
-      { name: "Economic & Financial", domains: ["economic_vitality", "debt_monetary"] },
+      { name: "Economic & Financial", domains: ["economic_vitality", "debt_monetary", "external_position"] },
       { name: "Social Fabric", domains: ["family_demographics", "generational", "social_trust", "moral_cultural"] },
-      { name: "Structural & Political", domains: ["political_function", "institutional_health", "elite_dynamics"] },
-      { name: "Biophysical", domains: ["system_complexity"] },
+      { name: "Structural & Political", domains: ["political_function", "institutional_health", "elite_dynamics", "system_complexity"] },
+      { name: "Biophysical", domains: ["ecological", "energy_entropy"] },
     ];
 
     pillars.forEach(function (p) {
@@ -257,7 +260,7 @@
 
     // Domain cards
     html += '<div class="domain-grid">';
-    var domainOrder = ["economic_vitality", "debt_monetary", "family_demographics", "political_function", "generational", "social_trust", "institutional_health", "moral_cultural", "elite_dynamics", "system_complexity"];
+    var domainOrder = ["economic_vitality", "debt_monetary", "external_position", "family_demographics", "political_function", "generational", "social_trust", "institutional_health", "moral_cultural", "elite_dynamics", "system_complexity", "ecological", "energy_entropy"];
     domainOrder.forEach(function (dk, i) {
       var d = DATA.domains[dk];
       if (!d) return;
@@ -282,7 +285,7 @@
     html += '<div class="methodology-note fade-in">';
     html += "  <h3>About This Index</h3>";
     html += "  <p>Scores range 0 – 100 (100 = peak historical health). Each indicator is normalized against its own historical range (1960–present) using min-max scaling. ";
-    html += "Domains are equally weighted. Waves 1 &amp; 3 cover 10 of 13 domains using FRED, Census, World Bank, GSS, Gallup, Pew, and CDC data. Wave 2 will add external competitiveness, ecology, and energy.</p>";
+    html += "Domains are equally weighted. All 13 domains are live across 3 waves, using FRED, Census, World Bank, WIPO, SIPRI, EIA, GSS, Gallup, Pew, CDC, and Global Footprint Network data.</p>";
     html += "</div>";
 
     mainEl.innerHTML = html;
@@ -366,6 +369,9 @@
       moral_cultural: colors.error,
       elite_dynamics: colors.purple,
       system_complexity: colors.orange,
+      external_position: colors.primary,
+      ecological: colors.success,
+      energy_entropy: colors.orange,
     };
     var lineColor = domainColors[dk] || colors.primary;
 
@@ -569,16 +575,19 @@
     html += "This is a deliberate starting point — domain-specific weights may be refined in future versions based on predictive analysis.</p>";
 
     html += "    <h3 style=\"font-size:var(--text-base);font-weight:600;color:var(--color-text);margin:var(--space-4) 0 var(--space-2)\">Data Sources</h3>";
-    html += '    <p>Waves 1 &amp; 3 use publicly available data from <a href="https://fred.stlouisfed.org" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary)">FRED</a>, ';
-    html += '<a href="https://info.worldbank.org/governance/wgi/" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary)">World Bank Governance Indicators</a>, ';
-    html += "General Social Survey (GSS), Gallup, Pew Research Center, CDC, Census Bureau, and DW-NOMINATE. Data refreshes on dashboard rebuild.</p>";
+    html += '    <p>All three waves use publicly available data from <a href="https://fred.stlouisfed.org" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary)">FRED</a>, ';
+    html += '<a href="https://info.worldbank.org/governance/wgi/" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary)">World Bank</a>, ';
+    html += '<a href="https://www.wipo.int" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary)">WIPO</a>, ';
+    html += '<a href="https://www.sipri.org" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary)">SIPRI</a>, ';
+    html += '<a href="https://www.eia.gov" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary)">EIA</a>, ';
+    html += 'GSS, Gallup, Pew, CDC, Census, Global Footprint Network, USDA, Bridgewater, and DW-NOMINATE. Data refreshes on dashboard rebuild.</p>';
 
     html += "    <h3 style=\"font-size:var(--text-base);font-weight:600;color:var(--color-text);margin:var(--space-4) 0 var(--space-2)\">Implementation Waves</h3>";
     html += '    <table class="indicator-table" style="margin-top:var(--space-2)">';
     html += "      <thead><tr><th>Wave</th><th>Domains</th><th>Status</th></tr></thead>";
     html += "      <tbody>";
     html += '        <tr><td><strong>Wave 1</strong></td><td>Economic Vitality, Debt & Monetary, Family & Demographics, Political Function, Generational Dynamics</td><td><span class="score-badge" style="background:var(--color-success-soft);color:var(--color-success)">Live</span></td></tr>';
-    html += "        <tr><td><strong>Wave 2</strong></td><td>External Competitive Position, Ecological & Resource Base, Energy & Entropy</td><td><span class=\"score-badge\" style=\"background:var(--color-surface-dynamic);color:var(--color-text-faint)\">Planned</span></td></tr>";
+    html += '        <tr><td><strong>Wave 2</strong></td><td>External Competitive Position, Ecological & Resource Base, Energy & Entropy</td><td><span class="score-badge" style="background:var(--color-success-soft);color:var(--color-success)">Live</span></td></tr>';
     html += '        <tr><td><strong>Wave 3</strong></td><td>Social Trust & Cohesion, Institutional Health, Moral & Cultural Health, Elite Dynamics, System Complexity</td><td><span class="score-badge" style="background:var(--color-success-soft);color:var(--color-success)">Live</span></td></tr>';
     html += "      </tbody>";
     html += "    </table>";
